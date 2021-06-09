@@ -1,0 +1,280 @@
+header, nav, main, footer { display: block; }
+
+body { 
+	  background-color: #ffffcc;
+	  background-image: url("../javajam pic examples/background.gif");
+	  color: #330000; 
+	  font-family: Tahoma, Verdana, sans-serif; 
+	  }
+
+header { 
+		background-image: url("../javajam pic examples/javajamlogo.jpg");
+	    background-color: #ccaa66; 
+	    height: 150px;
+		border-right:2px solid black;
+		background-repeat: no-repeat;
+	}	  
+
+h1 { background-color: #ccaa66;
+	 color: #000000; 
+	 text-align: center;
+	 padding-top: 50px;
+	 padding-right: 150px;
+	 font-size: 250%;
+	}
+	
+h3{
+	font-weight:bold;
+	font-size: 125%;
+}
+table{
+	text-align: center;
+	margin:auto;
+	width: 80%;
+}
+tr:nth-of-type(odd)
+td{
+	padding: 10px;
+	background-color: #ccaa66;	
+}
+tr:nth-of-type(odd)
+th{
+	padding: 10px;
+	background-color: #ccaa66;	
+}
+
+
+footer { 
+	   background-color: #ccaa66;
+	   color: #000000;
+	   font-size: small;
+	   font-style: italic; 
+	   text-align: center;
+	   padding-top: 0px; 
+	   padding-bottom: 0px;
+	   border-bottom: 2px solid black;	
+	   border-right: 2px solid black;	   
+	   }
+	   
+footer:link { color: #ffffcc; }
+
+footer:visited { color: #f2eab7; }
+
+footer:hover { color: #330000; }
+
+nav { 
+	 float: left;
+	 width: 200px;
+	 font-weight: bold;
+	 
+	 }
+
+nav a { 
+	  text-decoration: none;
+	  }
+	
+nav a:link { 
+	color: #996633; 
+	margin-left: 30px;
+}
+
+nav a:visited { 
+	color: #ccaa66; 
+	}
+
+nav a:hover {
+	color: #330000; 
+	}
+
+nav ul { 
+	list-style-type: none; 
+}
+
+
+
+#wrapper {
+		   background-color: #231814;
+		   margin-left: auto;
+		   margin-right: auto;
+		   width: 80%; 
+		   min-width: 700px;
+		   max-width: 1024px;
+	 }
+
+h2 { text-transform: uppercase;
+	background-color: #ccaa66;
+	color: black;
+	text-indent: 35px;
+	font-size: 1.2em;
+	border-bottom: 1px solid #000000;
+	padding: 5px 10px 10px 1px; 
+	margin-right: 1px;
+	margin-left: -20px;
+}
+
+main { 
+	  padding: 0px 0px 15px 20px;
+	  margin-left: 150px;
+	  background-color: #f2eab7;
+	  color: #000000; 
+	  overflow: auto;
+	  border-bottom: 2px solid black;
+	  border-right:2px solid black;
+	  }
+	  
+.details { padding-left: 20%;
+		   padding-right: 20%; 
+		   overflow: auto; }
+
+img { border: 0; }
+	   
+.floatright { float: right;
+			  padding-left: 20px; }
+			  
+.floatleft { float: left;
+			padding: 0 20px 20px 0; }
+			
+.floatingpic {
+	
+}
+form {
+    text-decoration: none;
+	padding: 2em;
+}
+label {
+	text-align: right;
+	width: 8em;
+	padding-right: 1em;
+	float: left;
+	display: block; 
+}
+input{
+	display: block; 
+	margin-bottom: 1em;
+	
+}
+textarea{
+	display: block; 
+}
+#submit{
+	margin-left:10.8em;
+}
+#moblie {display: none;}
+#desktop {display: inline;}
+
+@media only screen and (max-width: 1024px) {
+	body { margin: 0;
+	background-image: none;
+	}
+	#wrapper{ 
+	width: auto;
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	}
+	header{
+		border-bottom: 5px;
+		border-bottom-color: #FEF6C2;
+		
+	}
+	h1{
+		margin-top: 0px;
+		margin-bottom: 1em;
+		padding-top: 0px;
+		margin: 10px;
+		font-size: 1.3em;
+	}
+	nav{
+		display: inline-block;
+	}
+	nav a{
+		padding: 1em;
+		width: 8em;
+		font-weight: bold;
+		border-style: none;
+	}
+	nav ul{ 
+		padding: 0px;
+		margin: 0px;
+	}
+	#heroroad{
+		padding: 0px;
+		margin: 0px;
+	}
+	#heromugs{
+	margin: 0px;
+	padding: 0px;
+	}
+	#heroguitar{
+	margin: 0px;
+	padding: 0px;
+	}
+	main{
+		padding: 0px;
+		margin: 0px;
+		font-size: 90%;
+	}
+}
+@media only screen and (max-width: 768px){
+	header{
+		background-image: url("../javajam pic examples/javajammini.jpg");
+		background-size: 0px 128px;
+	}
+	h1{
+		font-size: 2em;
+		text-align: center;
+		padding: 0px;
+	}
+	nav{
+		margin: 0px;
+	}
+	nav a {
+		display: block;
+		padding: 0.2em;
+		width: auto;
+		border-bottom: 1px;
+		border-bottom-color: #FEF6C2;
+	}
+	
+	nav li {
+		display: block;
+	}
+	main{
+		padding: 1px;
+	}
+	h2{
+		padding-top: 0.5em;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0.5em;
+		margin-right: 0.5em;
+	}
+	
+	.details
+	{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#heroroad{
+		background-image: none;
+		background-size: auto;
+	}
+	#heromugs{
+		background-image: none;
+		background-size: auto;
+	}
+	#heroguitar{
+		background-image: none;
+		background-size: auto;
+	}
+	
+	.floatleft {
+		padding-left:0.5em;
+		padding-right: 0.5em;
+	}
+	
+	
+}
+
+ 
